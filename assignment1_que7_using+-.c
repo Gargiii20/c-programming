@@ -6,9 +6,9 @@ int main()
     scanf("%d",&a);
     printf("Enter the value of b:");
     scanf("%d",&b);
-    temp =a;
-    a=b;
-    b=temp;
-    printf("After swappning the numbers are : a=%d , b=%d \n",a,b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("After swappning the numbers are :\n a=%d\n b=%d \n",a,b);
     return 0;
 }
